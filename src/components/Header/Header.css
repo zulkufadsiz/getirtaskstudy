@@ -1,0 +1,21 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 76.64px;
+    background-color: #1EA4CE
+}
+
+.mobile-menu {
+    visibility: hidden;
+}
+
+.cart-button {
+    height: 77px;
+    font-size: 14px;
+    background-color: #147594 !important;
+    color: #FFFFFF !important;
+    padding-left: 24px;
+    padding-right: 24px;
+}

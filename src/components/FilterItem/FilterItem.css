@@ -1,0 +1,26 @@
+.filter-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.filter-input-container {
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+
+.filter-item-container {
+    overflow-y: auto;
+    max-height: 170px;
+}
+.filter-item-container .MuiTypography-body1 {
+    font-weight: 300 !important;
+    color: #697488 !important;
+}
+.radio-icon svg{
+    fill: #1EA4CE;
+}

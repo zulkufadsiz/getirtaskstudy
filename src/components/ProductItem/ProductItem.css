@@ -1,0 +1,27 @@
+.product-item-container {
+    height: 225px;
+    width: 124px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-container {
+    width: 124px;
+    height: 124px;
+    background-color: #FEFEFE;
+    border: 1px solid #F3F0FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.product-title {
+    min-height: 48px;
+}
+
+.product-image {
+    height: 92px;
+    width: 92px;
+}
