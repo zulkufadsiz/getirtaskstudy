@@ -1,0 +1,26 @@
+.products-container {
+    margin: 8px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.products-content {
+    background-color: #FFFFFF;
+}
+
+.tag-container {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tag-container .tag-item {
+    margin-right: 8px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px
+}

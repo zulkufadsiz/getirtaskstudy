@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E5E5E5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 540px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary {
+    background-color: #1EA4CE !important;
+    color: #ffffff !important;
+    height: 22px;
+    width: 124px;
+    text-transform: unset !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bordered-text {
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination li button {
+    color: #697488 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination li button.Mui-selected {
+    background-color: #1EA4CE !important;
+    color: #ffffff !important;
 }
+
+.btn-link {
+    color: #1EA4CE !important;
+    text-transform: unset !important;
+}
+
+.checkbox-primary .MuiIconButton-label {
+    color: #1EA4CE !important;
+}
+
+.checkbox-primary.Mui-checked {
+    color: #1EA4CE !important;
+}
+
+.text-title {
+    font-size: 14px;
+}
+
+.text-label {
+    font-size: 13px;
+}
+
+.text-blue {
+    color: #1EA4CE;
+}
+
+.text-grey {
+    color: #697488;
+}
+
+.text-light {
+    color: #FFFFFF;
+}
+
+.form-input {
+    height: 48px;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.pb-16 {
+    padding-bottom: 16px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.text-36 {
+    font-size: 36px !important;
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+

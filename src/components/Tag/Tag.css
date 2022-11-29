@@ -1,0 +1,17 @@
+.tag-item {
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.tag-active {
+    background-color: #1EA4CE;
+    color: #F2F0FD;
+}
+
+.tag-disabled {
+    background-color: #F2F0FD;
+    color: #1EA4CE;
+}
+
