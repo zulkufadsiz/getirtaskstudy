@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem/ProductItem';
-import { Button, Container, Grid, Typography } from '@material-ui/core';
-import { Pagination, PaginationItem } from '@mui/material';
-import { ArrowBack } from '@mui/icons-material';
+import { Button, Container, Grid, Typography, Pagination, PaginationItem } from '@mui/material';
+import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import { useSelector, useDispatch } from 'react-redux';
 import { setProducts, setPage } from '../../store/products.reducer';
 import { addToCart } from '../../store/cart.reducer';
-import { ArrowForward } from '@material-ui/icons';
 import Tag from '../Tag/Tag';
 import './Products.css';
 import { ITEM } from '../../utils/config';

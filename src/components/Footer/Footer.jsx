@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Link, Button } from '@material-ui/core';
+import { Box, Container, Link, Button } from '@mui/material';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
