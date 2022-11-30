@@ -1,5 +1,5 @@
 import React from 'react';
-import { ClickAwayListener, MenuItem, MenuList, Paper, Typography } from '@mui/material';
+import { ClickAwayListener, Divider, MenuItem, MenuList, Paper, Typography } from '@mui/material';
 import IncDecInput from '../IncreaseDecreaseInput/IncDecInput';
 import { WorkOutline } from '@mui/icons-material';
 import PropTypes from 'prop-types';
@@ -7,13 +7,13 @@ import './Cart.css';
 import { updateItemCount } from '../../store/cart.reducer';
 import { useDispatch } from 'react-redux';
 
-function Cart(props) {
+const Cart = React.forwardRef((props, ref) => {
   const dispatch = useDispatch();
   const setValue = (count, item) => {
     dispatch(updateItemCount({ item, count }));
   };
   return (
-    <Paper className="cart-paper">
+    <Paper ref={ref} className="cart-paper">
       <div className="cart-container">
         <ClickAwayListener
           onClickAway={(e) => {
@@ -26,19 +26,22 @@ function Cart(props) {
             onKeyDown={props.handleListKeyDown}>
             {props.cart.items.length > 0 ? (
               props.cart.items.map((item, index) => (
-                <MenuItem key={index}>
-                  <div className="cart-item">
-                    <div>
-                      <Typography data-testid="cart-item-name" className="text-title">
-                        {item.name}
-                      </Typography>
-                      <Typography data-testid="cart-item-price" className="text-title text-blue">
-                        ₺{item.price}
-                      </Typography>
+                <>
+                  <MenuItem key={index}>
+                    <div className="cart-item">
+                      <div>
+                        <Typography data-testid="cart-item-name" className="text-title">
+                          {item.name}
+                        </Typography>
+                        <Typography data-testid="cart-item-price" className="text-title text-blue">
+                          ₺{item.price}
+                        </Typography>
+                      </div>
+                      <IncDecInput value={item.count} setValue={(count) => setValue(count, item)} />
                     </div>
-                    <IncDecInput value={item.count} setValue={(count) => setValue(count, item)} />
-                  </div>
-                </MenuItem>
+                  </MenuItem>
+                  <Divider />
+                </>
               ))
             ) : (
               <MenuItem>
@@ -59,8 +62,8 @@ function Cart(props) {
       </div>
     </Paper>
   );
-}
-
+});
+Cart.displayName = 'Cart';
 export default Cart;
 Cart.propTypes = {
   cart: PropTypes.object,

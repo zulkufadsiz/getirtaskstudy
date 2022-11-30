@@ -124,7 +124,7 @@ The Tag component can contain the following properties:
 
 - `label` (string): Accept a string value and show labels in the component
 - `onClick` (function): Callback fired when click the item 
-- `disabled` (boolean): Object options are id,value,label.
+- `disabled` (boolean): Disabled tag default false.
 
 [main-screenshot]: https://i.ibb.co/zm0R72T/Screen-Shot-2022-11-30-at-12-11-49.png
 [responsive-screenshot]: https://i.ibb.co/Bc16yKC/Screen-Shot-2022-11-30-at-12-12-41.png

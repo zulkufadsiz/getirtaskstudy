@@ -16,7 +16,7 @@ function Products() {
   const { _sort, _order, products, filteredTags } = useSelector((state) => state.filter);
 
   useEffect(() => {
-    getProducts().then((response) => {
+    getProducts(_page).then((response) => {
       dispatch(setProducts({ response, _page }));
     });
   }, [_page, _sort, _order]);
