@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="Material-ui/core package updated.">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+    <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/dummy-data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +44,11 @@
       <recent name="$PROJECT_DIR$/src/utils/dummy-data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/utils/mock-data" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/utils" />
-      <recent name="$PROJECT_DIR$/src/utils/dummy-data" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +63,7 @@
       <workItem from="1668199742211" duration="18955000" />
       <workItem from="1668334875264" duration="83836000" />
       <workItem from="1668962662173" duration="17024000" />
-      <workItem from="1669132285909" duration="83414000" />
+      <workItem from="1669132285909" duration="85659000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialized">
       <created>1668199899584</created>
@@ -88,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669799493286</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="package-lock.json updated.">
+      <created>1669800763454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669800763455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +123,8 @@
     <MESSAGE value="Component test completed." />
     <MESSAGE value="Procfile updated." />
     <MESSAGE value="Material-ui/core package updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Material-ui/core package updated." />
+    <MESSAGE value="package-lock.json updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="package-lock.json updated." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
