@@ -29,6 +29,7 @@ export const onCompanyChecked = createAsyncThunk(
   'company/companyChecked',
   async ({ name, checked }, { dispatch, getState }) => {
     const { _page } = getState().filter;
+    const { products, totalPage } = getState().product;
     const companies = getState().company.companies.map((company) =>
       company.name === name
         ? {
@@ -41,7 +42,11 @@ export const onCompanyChecked = createAsyncThunk(
     dispatch(getCompaniesReducer(companies));
     const brands = companies.filter((el) => el.isChecked).map((el) => el.slug);
     dispatch(setBrands({ brands }));
-    dispatch(setProducts({ _page }));
+    dispatch(
+      setProducts({
+        response: { data: [...products], headers: { ['x-total-count']: totalPage * 16 }, _page }
+      })
+    );
     return companies;
   }
 );
