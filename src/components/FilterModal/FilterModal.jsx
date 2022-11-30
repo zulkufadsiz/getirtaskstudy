@@ -1,6 +1,6 @@
 import React from 'react';
 import SideFilters from '../SideFilters/SideFilters';
-import { Modal, Button, Box } from '@material-ui/core';
+import { Modal, Button, Box } from '@mui/material';
 
 function FilterModal() {
   const [open, setOpen] = React.useState(false);

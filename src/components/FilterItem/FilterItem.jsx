@@ -7,8 +7,8 @@ import {
   RadioGroup,
   Radio,
   Typography
-} from '@material-ui/core';
-import { CheckCircleOutline } from '@material-ui/icons';
+} from '@mui/material';
+import { CheckCircleOutline } from '@mui/icons-material';
 import PropTypes from 'prop-types';
 import './FilterItem.css';
 

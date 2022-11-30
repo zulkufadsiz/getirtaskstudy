@@ -1,5 +1,5 @@
 import React from 'react';
-import { ClickAwayListener, MenuItem, MenuList, Paper, Typography } from '@material-ui/core';
+import { ClickAwayListener, MenuItem, MenuList, Paper, Typography } from '@mui/material';
 import IncDecInput from '../IncreaseDecreaseInput/IncDecInput';
 import { WorkOutline } from '@mui/icons-material';
 import PropTypes from 'prop-types';

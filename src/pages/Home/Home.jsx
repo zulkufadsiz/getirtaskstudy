@@ -1,7 +1,7 @@
 import React from 'react';
 import SideFilters from '../../components/SideFilters/SideFilters';
 import Products from '../../components/Products/Products';
-import { Container } from '@material-ui/core';
+import { Container } from '@mui/material';
 import FilterModal from '../../components/FilterModal/FilterModal';
 import './Home.css';
 function Home() {

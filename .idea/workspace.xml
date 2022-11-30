@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="Procfile updated.">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FilterItem/FilterItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilterItem/FilterItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FilterModal/FilterModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilterModal/FilterModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +68,7 @@
       <workItem from="1668199742211" duration="18955000" />
       <workItem from="1668334875264" duration="83836000" />
       <workItem from="1668962662173" duration="17024000" />
-      <workItem from="1669132285909" duration="80919000" />
+      <workItem from="1669132285909" duration="82495000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialized">
       <created>1668199899584</created>
