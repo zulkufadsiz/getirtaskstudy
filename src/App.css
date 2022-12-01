@@ -89,7 +89,13 @@ body {
 .align-center {
     align-items: center;
 }
+.grow-2 {
+    flex-grow: 2;
+}
 
+.zIndex-2 {
+    z-index: 2;
+}
 .w-100 {
     width: 100% !important;
 }

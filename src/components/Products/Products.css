@@ -6,6 +6,7 @@
 
 .products-content {
     background-color: #FFFFFF;
+    height: calc(100% - 100px);
 }
 
 .tag-container {

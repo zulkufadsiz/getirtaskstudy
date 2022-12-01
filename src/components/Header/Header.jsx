@@ -1,6 +1,5 @@
 import React from 'react';
-import { AppBar, Box, Toolbar, IconButton, Typography, Button, Popper, Grow } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+import { AppBar, Box, Toolbar, Typography, Button, Popper, Grow } from '@mui/material';
 import { Work } from '@mui/icons-material';
 import './Header.css';
 import { useSelector } from 'react-redux';
@@ -62,11 +61,7 @@ function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar className="toolbar">
-          <div className="mobile-menu">
-            <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-              <MenuIcon />
-            </IconButton>
-          </div>
+          <div className="grow-2"></div>
           <Typography data-testid="header-title" variant="h4" component="div" sx={{ flexGrow: 2 }}>
             Market
           </Typography>
@@ -82,6 +77,7 @@ function Header() {
             ₺ {cart.totalPrice}
           </Button>
           <Popper
+            className="zIndex-2"
             open={open}
             anchorEl={anchorRef.current}
             role={undefined}

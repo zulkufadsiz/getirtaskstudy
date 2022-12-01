@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="Error Boundary added.">
+    <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="Company reducer set products totalPage parameter resolved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/company.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/company.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FilterModal/FilterModal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalDialog/ModalDialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalDialog/ModalDialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalDialog/info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideFilters/SideFilters.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideFilters/SideFilters.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/products.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/products.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +82,8 @@
       <workItem from="1668334875264" duration="83836000" />
       <workItem from="1668962662173" duration="17024000" />
       <workItem from="1669132285909" duration="104667000" />
-      <workItem from="1669841246851" duration="4568000" />
+      <workItem from="1669841246851" duration="5474000" />
+      <workItem from="1669891364838" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialized">
       <created>1668199899584</created>
@@ -137,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669843262960</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Company reducer set products totalPage parameter resolved">
+      <created>1669846199295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669846199296</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +183,8 @@
     <MESSAGE value="Vercel.json removed." />
     <MESSAGE value="Readme file added." />
     <MESSAGE value="Error Boundary added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Error Boundary added." />
+    <MESSAGE value="Company reducer set products totalPage parameter resolved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Company reducer set products totalPage parameter resolved" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

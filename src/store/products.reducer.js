@@ -4,7 +4,6 @@ import { getFilteredProducts } from './filters.reducer';
 export const setProducts = createAsyncThunk(
   'product/setProducts',
   async ({ response, _page }, { dispatch, getState }) => {
-    console.log('Response', response);
     const { brands } = getState().filter;
 
     const totalPage = Math.round(response.headers['x-total-count'] / 16);

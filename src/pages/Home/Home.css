@@ -2,10 +2,19 @@
     display: flex;
     flex-direction: row;
 }
-
+.filter-dialog {
+    display: none;
+}
 @media only screen and (max-width: 768px) {
     .home-container {
         flex-direction: column;
         align-items: center;
+    }
+
+    .side-filter-container {
+        display: none;
+    }
+    .filter-dialog {
+        display: inline;
     }
 }

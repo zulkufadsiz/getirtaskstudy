@@ -4,9 +4,3 @@
     margin: 8px;
 }
 
-
-@media only screen and (max-width: 768px) {
-    .side-filters {
-        display: none;
-    }
-}

@@ -25,24 +25,22 @@ const Cart = React.forwardRef((props, ref) => {
             aria-labelledby="composition-button"
             onKeyDown={props.handleListKeyDown}>
             {props.cart.items.length > 0 ? (
-              props.cart.items.map((item, index) => (
-                <>
-                  <MenuItem key={index}>
-                    <div className="cart-item">
-                      <div>
-                        <Typography data-testid="cart-item-name" className="text-title">
-                          {item.name}
-                        </Typography>
-                        <Typography data-testid="cart-item-price" className="text-title text-blue">
-                          ₺{item.price}
-                        </Typography>
-                      </div>
-                      <IncDecInput value={item.count} setValue={(count) => setValue(count, item)} />
+              props.cart.items.map((item, index) => [
+                <MenuItem key={index}>
+                  <div className="cart-item">
+                    <div>
+                      <Typography data-testid="cart-item-name" className="text-title">
+                        {item.name}
+                      </Typography>
+                      <Typography data-testid="cart-item-price" className="text-title text-blue">
+                        ₺{item.price}
+                      </Typography>
                     </div>
-                  </MenuItem>
-                  <Divider />
-                </>
-              ))
+                    <IncDecInput value={item.count} setValue={(count) => setValue(count, item)} />
+                  </div>
+                </MenuItem>,
+                <Divider key={index * 10} />
+              ])
             ) : (
               <MenuItem>
                 <div className="cart-empty">
