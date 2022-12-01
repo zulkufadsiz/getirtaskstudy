@@ -9,7 +9,7 @@ import { useTheme } from '@mui/material/styles';
 import PropTypes from 'prop-types';
 
 export const ModalDialog = (props) => {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -19,7 +19,9 @@ export const ModalDialog = (props) => {
       props.onCancel();
     }
   };
-
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
   const onOk = () => {
     handleClose();
     if (props.onOk) {
@@ -36,13 +38,16 @@ export const ModalDialog = (props) => {
 
   return (
     <div>
+      <Button variant="outlined" onClick={handleClickOpen}>
+        Filter
+      </Button>
       <Dialog
         fullScreen={fullScreen}
         open={open}
         onClose={handleClose}
         aria-labelledby="responsive-dialog-title">
         <DialogTitle id="responsive-dialog-title">{props.title || ''}</DialogTitle>
-        <DialogContent>{props.content}</DialogContent>
+        <DialogContent className="w-100">{props.content}</DialogContent>
         <DialogActions>
           <Button onClick={onOk} autoFocus>
             {props.okText || 'OK'}
