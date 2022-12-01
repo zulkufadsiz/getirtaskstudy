@@ -6,7 +6,6 @@ Basic Market app, is a simple responsive market application developed using Reac
 and an example of an e-commerce application in which standard CRUD transactions are made.
 
 ![Market App With Redux][main-screenshot]
-![Market App With Redux][responsive-screenshot]
 
 ### Built With
 
@@ -21,6 +20,8 @@ The major frameworks used when built the project:
 - [Prettier](https://prettier.io/)
 - Atomic Design principles (Not exactly. But it has been tried)
 - Error Boundary
+
+![Market App With Redux][responsive-screenshot]
 
 ## Getting Started
 
@@ -127,4 +128,4 @@ The Tag component can contain the following properties:
 - `disabled` (boolean): Disabled tag default false.
 
 [main-screenshot]: https://i.ibb.co/zm0R72T/Screen-Shot-2022-11-30-at-12-11-49.png
-[responsive-screenshot]: https://i.ibb.co/Bc16yKC/Screen-Shot-2022-11-30-at-12-12-41.png
+[responsive-screenshot]: https://i.ibb.co/7yfwdVS/Screen-Shot-2022-12-01-at-12-25-15.png

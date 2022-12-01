@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="Company reducer set products totalPage parameter resolved">
+    <list default="true" id="3ad1a1ee-b8ff-4979-8f40-caa93c207054" name="Default Changelist" comment="Modal Dialog is updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FilterModal/FilterModal.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalDialog/ModalDialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalDialog/ModalDialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalDialog/info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideFilters/SideFilters.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideFilters/SideFilters.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/products.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/products.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +72,7 @@
       <workItem from="1668962662173" duration="17024000" />
       <workItem from="1669132285909" duration="104667000" />
       <workItem from="1669841246851" duration="5474000" />
-      <workItem from="1669891364838" duration="2331000" />
+      <workItem from="1669891364838" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialized">
       <created>1668199899584</created>
@@ -155,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669846199296</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modal Dialog is updated.">
+      <created>1669893728128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669893728129</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +180,8 @@
     <MESSAGE value="Readme file added." />
     <MESSAGE value="Error Boundary added." />
     <MESSAGE value="Company reducer set products totalPage parameter resolved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Company reducer set products totalPage parameter resolved" />
+    <MESSAGE value="Modal Dialog is updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal Dialog is updated." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
